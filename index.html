@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raul-Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="header" data-aos="fade-down" data-aos-duration="1000">
+      <a href="#about" class="logo">Raul.</a>
+      <nav class="navbar">
+        <a href="#home" class="active" data-aos="fade-down" data-aos-delay="200"
+          >Home</a
+        >
+        <a href="#about" data-aos="fade-down" data-aos-delay="300">About</a>
+        <a href="#contact" data-aos="fade-down" data-aos-delay="400">Contact</a>
+        <a href="#photography" data-aos="fade-down" data-aos-delay="500"
+          >Photography</a
+        >
+      </nav>
+    </header>
+
+    <!-- ===== Home Section ===== -->
+    <section id="home" class="home">
+      <div class="Home-content" data-aos="fade-right" data-aos-duration="1200">
+        <h1 data-aos="fade-up" data-aos-delay="200">
+          Hi, I'm Muhammad Raul Zia Parsa
+        </h1>
+        <h3 data-aos="fade-up" data-aos-delay="400">
+          <span class="typing"></span>
+        </h3>
+        <p data-aos="fade-up" data-aos-delay="600">
+          Hi, I’m Raul. A passionate RPL student at SMK Negeri 2 Tanjung Selor
+          who loves exploring coding, design, and technology. I enjoy creating
+          projects, learning new skills, and growing step by step to become a
+          better developer." My life <br />
+          motto: “Think, Try, Fail, Improve, Repeat.
+        </p>
+        <div class="btn-box" data-aos="fade-up" data-aos-delay="800">
+          <button id="playBtn">🎵 Play Song</button>
+          <a
+            href="https://wa.me/6281347003870?text=Hi%20Raul!%20I%20visited%20your%20website%20and%20wanted%20to%20get%20in%20touch%20with%20you.%20Let's%20talk"
+            class="Lets Talk"
+            >Lets Talk</a
+          >
+        </div>
+      </div>
+
+      <div class="home-sci" data-aos="fade-left" data-aos-delay="1000">
+        <a href="https://wa.me/6281347003870"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/raull752/?igsh=MW5nMzZlOWF2cmNyaQ%3D%3D"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@zayv3n1?is_from_webapp=1&sender_device=pc"
+          ><i class="bx bxl-tiktok"></i
+        ></a>
+      </div>
+
+      <span class="home-imgHover"></span>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="about-container">
+        <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+          <h2>About Me</h2>
+          <p>
+            Hi, my name is <strong>Raul</strong>, a Software Engineering student
+            at <strong>SMK Negeri 2 Tanjung Selor</strong>. I started to love
+            technology when I first learned how websites are built, and since
+            then I’ve been excited to explore programming.
+          </p>
+          <br />
+          <p>
+            I enjoy working with <strong>HTML, CSS, and JavaScript</strong>. To
+            grow my skills, I often challenge myself with small projects and new
+            ideas.
+          </p>
+          <br />
+          <p>
+            Outside of tech, I love <strong>landscape photography</strong> and
+            <strong>music</strong>. Both keep me creative, motivated, and
+            inspired.
+          </p>
+          <p>
+            My goal is to become a <strong>professional programmer</strong> who
+            creates useful, innovative, and meaningful solutions for others.
+          </p>
+        </div>
+        <div class="about-media" data-aos="fade-left" data-aos-delay="400"></div>
+      </div>
+
+      <div class="about-skills" data-aos="zoom-in" data-aos-delay="600">
+        <h3>Interests & Skills</h3>
+        <ul>
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Photography</li>
+          <li>Music</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact" data-aos="fade-up">
+      <div class="contact-container">
+        <h2 data-aos="fade-down" data-aos-delay="200">Contact Me</h2>
+        <p data-aos="fade-up" data-aos-delay="400">
+          If you have any questions or just want to say hello, send me a message
+          below.
+        </p>
+
+        <!-- Formspree form -->
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/mgvlwopd"
+          method="POST"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+        >
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="input-box">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Tempat notifikasi -->
+        <p id="status-msg" class="status-msg"></p>
+      </div>
+    </section>
+
+    <!-- ===== Photography Section ===== -->
+    <section id="photography" class="photography" data-aos="fade-up">
+      <div class="container-photo">
+        <img src="1.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="100" />
+        <img src="2.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="200" />
+        <img src="3.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="300" />
+        <img src="4.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="400" />
+        <img src="5.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="500" />
+        <img src="6.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="600" />
+        <img src="7.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="700" />
+        <img src="8.jpg" alt="photography" data-aos="zoom-in" data-aos-delay="800" />
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer data-aos="fade-up" data-aos-duration="1200">
+      <div>Raul.</div>
+      <div class="center">© 2025 Raul. All rights reserved.</div>
+      <div>
+        <a href="https://wa.me/6281347003870"><i class="bx bxl-whatsapp"></i></a>
+        <a
+          href="https://www.instagram.com/raull752/?igsh=MW5nMzZlOWF2cmNyaQ%3D%3D"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@zayv3n1?is_from_webapp=1&sender_device=pc"
+          ><i class="bx bxl-tiktok"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- ===== Audio Player ===== -->
+    <audio id="mySong" src="song.mp3"></audio>
+
+    <!-- ===== Scripts ===== -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200, // durasi animasi
+        easing: "ease-in-out",
+        once: true, // animasi jalan sekali saja
+        mirror: false,
+      });
+    </script>
+  </body>
+</html>
